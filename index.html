@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Sonika K — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="custom.css"/>
+</head>
+<body class="dark">
+
+<div id="scroll-progress"></div>
+
+<!-- ══ NAVBAR ══ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">Sonika<span class="logo-dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about"           class="nav-link">About</a></li>
+      <li><a href="#projects"        class="nav-link">Projects</a></li>
+      <li><a href="#experience"      class="nav-link">Education</a></li>
+      <li><a href="#skills"          class="nav-link">Skills</a></li>
+      <li><a href="#certifications"  class="nav-link">Certs</a></li>
+      <li><a href="#contact-section" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="btn-theme">
+        <span id="theme-icon">☀</span>
+        <span id="theme-label">Light</span>
+      </button>
+      <a href="Resume.pdf" download="Sonika_K_Resume.pdf" class="nav-cta">Download CV</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-container">
+
+    <!-- LEFT: text -->
+    <div class="hero-text">
+      <div class="hero-greeting" id="greeting-text">Good Morning ☀️</div>
+      <h1 class="hero-heading">
+        Hi, I'm<br>
+        <span class="hero-name-highlight">Sonika K</span>
+      </h1>
+      <p class="hero-role">
+        <span id="typing-text"></span>
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact-section" class="btn-outline">Hire Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/sonikaa2005/MERN_Stu_FebMay26Mys" target="_blank" rel="noopener" class="hero-soc" title="GitHub">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/sonika-k-969083266" target="_blank" rel="noopener" class="hero-soc" title="LinkedIn">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:sonikagowda974@gmail.com" class="hero-soc" title="Email">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+        <a href="Resume.pdf" download="Sonika_K_Resume.pdf" class="hero-soc" title="Resume">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15h8v2H8zm0-4h8v2H8z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT: round photo -->
+    <div class="hero-photo-wrap">
+      <div class="photo-ring-outer"></div>
+      <div class="photo-ring-inner"></div>
+      <img src="Myphoto.jpeg" alt="Sonika K" class="hero-photo"/>
+      <!-- dot decorations -->
+      <div class="photo-dot photo-dot-1"></div>
+      <div class="photo-dot photo-dot-2"></div>
+      <div class="photo-dot photo-dot-3"></div>
+    </div>
+
+  </div>
+
+  <!-- background blobs -->
+  <div class="hero-blob hero-blob-1"></div>
+  <div class="hero-blob hero-blob-2"></div>
+</section>
+
+<!-- ══ ABOUT ══ -->
+<section id="about" class="sec">
+  <div class="container">
+    <div class="sec-head anim-fade">
+      <span class="label-tag">About Me</span>
+      <h2 class="sec-title">The person behind the code</h2>
+    </div>
+    <div class="about-grid">
+      <div class="anim-fade">
+        <p class="body-p">I'm <strong>Sonika K</strong>, a final-year Computer Science student at Cauvery Institute of Technology, Mandya (VTU) and an active trainee in <strong>AI-Enabled MERN Full Stack Web Development</strong> at Agasthya EdTech Private Limited.</p>
+        <p class="body-p">My focus is the <strong>MERN stack</strong> — I've built everything from CLI tools and REST APIs to a full-stack movie booking system and a machine-learning routing protocol. I write code that is clean, readable, and purposeful.</p>
+        <p class="body-p">I'm actively looking for my first professional role where I can contribute meaningfully, keep learning, and grow alongside a great team.</p>
+        <div class="about-btns">
+          <a href="Resume.pdf" download="Sonika_K_Resume.pdf" class="btn-primary">⬇ Download Resume</a>
+          <a href="#contact-section" class="btn-outline">Let's Connect</a>
+        </div>
+      </div>
+      <div class="info-grid anim-fade" style="transition-delay:.15s">
+        <div class="info-row"><span class="info-k">Name</span><span class="info-v">Sonika K</span></div>
+        <div class="info-row"><span class="info-k">Location</span><span class="info-v">Mandya, Karnataka</span></div>
+        <div class="info-row"><span class="info-k">Degree</span><span class="info-v">B.E. Computer Science</span></div>
+        <div class="info-row"><span class="info-k">University</span><span class="info-v">VTU · CIT Mandya</span></div>
+        <div class="info-row"><span class="info-k">Training</span><span class="info-v">Agasthya EdTech (Ongoing)</span></div>
+        <div class="info-row"><span class="info-k">CGPA</span><span class="info-v accent">7.76 / 10</span></div>
+        <div class="info-row"><span class="info-k">Stack</span><span class="info-v">MERN Full Stack</span></div>
+        <div class="info-row"><span class="info-k">Status</span><span class="info-v green">● Available for Hire</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROJECTS ══ -->
+<section id="projects" class="sec sec-alt">
+  <div class="container">
+    <div class="sec-head anim-fade">
+      <span class="label-tag">Portfolio</span>
+      <h2 class="sec-title">Things I've built</h2>
+      <p class="sec-sub">Projects built with modern frameworks, real-world intent, and clean architecture.</p>
+    </div>
+    <div class="proj-controls anim-fade">
+      <div class="search-wrap">
+        <svg class="search-ico" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input id="project-search" type="text" placeholder="Search projects…" class="search-input"/>
+      </div>
+      <select id="project-sort" class="sort-select">
+        <option value="default">Sort by…</option>
+        <option value="name-asc">A → Z</option>
+        <option value="name-desc">Z → A</option>
+        <option value="status">Status</option>
+      </select>
+    </div>
+    <div id="project-filters" class="filter-row anim-fade" style="transition-delay:.1s"></div>
+    <p id="project-count" class="proj-count"></p>
+    <div id="projects-container" class="projects-grid"></div>
+  </div>
+</section>
+
+<!-- ══ RECENTLY VIEWED ══ -->
+<section class="sec-sm">
+  <div class="container">
+    <p class="recent-label">// Recently Viewed</p>
+    <div id="recent-projects" class="recent-grid"></div>
+  </div>
+</section>
+
+<!-- ══ EDUCATION ══ -->
+<section id="experience" class="sec">
+  <div class="container">
+    <div class="sec-head anim-fade">
+      <span class="label-tag">Background</span>
+      <h2 class="sec-title">Education &amp; Training</h2>
+    </div>
+    <div id="education-container" class="edu-list"></div>
+  </div>
+</section>
+
+<!-- ══ SKILLS ══ -->
+<section id="skills" class="sec sec-alt">
+  <div class="container">
+    <div class="sec-head anim-fade">
+      <span class="label-tag">Expertise</span>
+      <h2 class="sec-title">Tech Stack</h2>
+    </div>
+    <div id="skills-container" class="skills-grid"></div>
+  </div>
+</section>
+
+<!-- ══ CERTIFICATIONS ══ -->
+<section id="certifications" class="sec">
+  <div class="container">
+    <div class="sec-head anim-fade">
+      <span class="label-tag">Achievements</span>
+      <h2 class="sec-title">Certifications</h2>
+    </div>
+    <div id="certs-container" class="certs-grid"></div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact-section" class="sec sec-contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-left anim-fade">
+        <span class="label-tag">Get In Touch</span>
+        <h2 class="sec-title" style="margin-top:1rem;">Let's work<br><span class="accent">together.</span></h2>
+        <p class="body-p" style="margin-top:1.25rem;">Open to full-time roles, internships, and projects. I respond within 24 hours.</p>
+        <div class="contact-items">
+          <a href="mailto:sonikagowda974@gmail.com" class="contact-item">
+            <div class="ci-icon">✉</div>
+            <div><div class="ci-label">Email</div><div class="ci-val">sonikagowda974@gmail.com</div></div>
+          </a>
+          <a href="tel:+919740602176" class="contact-item">
+            <div class="ci-icon">📞</div>
+            <div><div class="ci-label">Phone</div><div class="ci-val">+91 97406 02176</div></div>
+          </a>
+          <a href="https://github.com/sonikaa2005/MERN_Stu_FebMay26Mys" target="_blank" rel="noopener" class="contact-item">
+            <div class="ci-icon">⌥</div>
+            <div><div class="ci-label">GitHub</div><div class="ci-val">github.com/sonikaa2005</div></div>
+          </a>
+          <a href="https://www.linkedin.com/in/sonika-k-969083266" target="_blank" rel="noopener" class="contact-item">
+            <div class="ci-icon">in</div>
+            <div><div class="ci-label">LinkedIn</div><div class="ci-val">linkedin.com/in/sonika-k</div></div>
+          </a>
+          <a href="Resume.pdf" download="Sonika_K_Resume.pdf" class="contact-item">
+            <div class="ci-icon">↓</div>
+            <div><div class="ci-label">Resume</div><div class="ci-val">Download PDF</div></div>
+          </a>
+        </div>
+        <p id="location-text" class="loc-txt"></p>
+      </div>
+      <div class="contact-right anim-fade" style="transition-delay:.15s">
+        <div class="contact-form-card">
+          <h3 class="form-title">Send a Message</h3>
+          <p class="form-note">Opens your email client with your message pre-filled — goes directly to my inbox.</p>
+          <div class="form-field">
+            <label class="form-label" for="contact-name">Full Name</label>
+            <input id="contact-name" type="text" placeholder="Your name" class="form-input"/>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="contact-email">Email Address</label>
+            <input id="contact-email" type="email" placeholder="you@example.com" class="form-input"/>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="contact-message">Message</label>
+            <textarea id="contact-message" rows="4" placeholder="Hi Sonika, I'd like to discuss…" class="form-input" style="resize:vertical;"></textarea>
+          </div>
+          <p id="form-message" class="form-msg"></p>
+          <button type="button" id="form-submit" class="btn-primary" style="width:100%;justify-content:center;margin-top:.5rem;">Send Message →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="nav-logo">Sonika<span class="logo-dot">.</span></span>
+    <p id="visitor-count" class="footer-vis"></p>
+    <p class="footer-copy">© 2026 Sonika K — Designed &amp; built from scratch</p>
+    <div class="footer-links">
+      <a href="https://github.com/sonikaa2005/MERN_Stu_FebMay26Mys" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/sonika-k-969083266" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:sonikagowda974@gmail.com">Email</a>
+      <a href="Resume.pdf" download="Sonika_K_Resume.pdf">Resume</a>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" class="fab-top" style="display:none;" title="Back to top">↑</button>
+
+<!-- DATA -->
+<script src="js/data/projects.js"></script>
+<script src="js/data/skills.js"></script>
+<script src="js/data/education.js"></script>
+<script src="js/data/certifications.js"></script>
+<!-- FEATURES -->
+<script src="js/features/scroll-progress-indicator.js"></script>
+<script src="js/features/greeting.js"></script>
+<script src="js/features/typing-animation.js"></script>
+<script src="js/features/theme-toggle.js"></script>
+<script src="js/features/skills-render.js"></script>
+<script src="js/features/education-render.js"></script>
+<script src="js/features/certifications-render.js"></script>
+<script src="js/features/project-render.js"></script>
+<script src="js/features/project-filter.js"></script>
+<script src="js/features/project-search.js"></script>
+<script src="js/features/project-sort.js"></script>
+<script src="js/features/project-count.js"></script>
+<script src="js/features/recent-projects.js"></script>
+<script src="js/features/contact-validation.js"></script>
+<script src="js/features/contact-autosave.js"></script>
+<script src="js/features/Back-to-Top-Button.js"></script>
+<script src="js/features/active-navigation-highlight.js"></script>
+<script src="js/features/visitor_count.js"></script>
+<script src="js/features/geolocation.js"></script>
+<script src="js/features/animate-on-scroll.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

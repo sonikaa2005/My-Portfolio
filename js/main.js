@@ -1,0 +1,21 @@
+document.addEventListener('DOMContentLoaded', function () {
+  initScrollProgress();
+  initGreeting();
+  initTypingAnimation();
+  initThemeToggle();
+  initSkills();
+  initEducation();
+  initCertifications();
+  initProjectFilters();
+  initProjectSearch();
+  initProjectSort();
+  renderProjects();
+  renderRecentProjects();
+  initContactValidation();
+  initContactAutosave();
+  initBackToTop();
+  initActiveNav();
+  initVisitorCount();
+  initGeolocation();
+  initAnimateOnScroll();
+});
