@@ -2,7 +2,7 @@ const projectsData = [
   {
     id: 1, name: "Movie Booking System — BookMyShow Clone", category: "Full Stack",
     description: "Production-oriented backend system for a movie ticket booking application similar to BookMyShow. Supports two actors — Customer (register, OTP verify, browse movies, book/cancel tickets) and Admin (manage movies, shows, seats, monitor bookings). Built with JWT authentication, role-based access control, rate limiting, file upload, aggregation analytics, and full Mongoose schema design.",
-    technologies: ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Multer"], status: "Completed",
+    technologies: ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Multer"], status: "Ongoing",
     liveDemo: "#", github: "https://github.com/sonikaa2005/MERN_Stu_FebMay26Mys/tree/main/Projects/Guided%20Project/BookMyShowClone"
   },
   {
@@ -20,7 +20,7 @@ const projectsData = [
   {
     id: 4, name: "Learning Management System (Express.js)", category: "Backend",
     description: "Backend LMS using Express.js to manage users, courses, and enrollments with RESTful APIs and middleware for efficient request handling.",
-    technologies: ["Node.js", "Express.js", "JavaScript"], status: "Ongoing",
+    technologies: ["Node.js", "Express.js", "JavaScript"], status: "Completed",
     liveDemo: "#", github: "https://github.com/sonikaa2005/MERN_Stu_FebMay26Mys"
   },
   {
