@@ -1,6 +1,6 @@
 const educationData = [
   { id:1, Company:"Agasthya EdTech Private Limited", title:"AI-Enabled MERN Full Stack Web Development",
-    period:"Feb 2026 – July 2026", college:"Industrial Training — Completed", score:"Active Trainee" },
+    period:"Feb 2026 – July 2026", company:"Industrial Training at Agasthya EdTech Private Limited — Completed", score:"Completed" },
   { id:2, university:"Visvesvaraya Technological University (VTU)", title:"B.E. in Computer Science",
     period:"2022 – 2026", college:"Cauvery Institute of Technology (CIT), Mandya", score:"CGPA: 8.01" },
   { id:3, university:"Pre-University Education Board", title:"PCMB (Science Stream)",

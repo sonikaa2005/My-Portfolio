@@ -409,7 +409,7 @@ body:not(.dark) .status-live      { background:#dbeafe; color:#1d4ed8; border-co
 .edu-card:hover { transform:translateY(-3px); border-color:var(--border-h); box-shadow:0 10px 30px rgba(0,0,0,.25); }
 .edu-card:first-child { border-color:rgba(139,92,246,.2); }
 .edu-card:first-child::after {
-  content:'ONGOING'; position:absolute; top:1rem; right:1rem;
+  content:'COMPLETED'; position:absolute; top:1rem; right:1rem;
   background:rgba(139,92,246,.12); border:1px solid rgba(139,92,246,.3);
   color:var(--accent); font-size:.6rem; font-weight:800; letter-spacing:.1em;
   padding:.15rem .55rem; border-radius:999px; font-family:'JetBrains Mono',monospace;
